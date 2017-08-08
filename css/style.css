@@ -19,12 +19,16 @@ h2 {
 
 h3 {
   font-size: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 18px;
+}
+
+.cert{
+  font-size: 15px;
 }
 
 h5 {
@@ -258,8 +262,8 @@ img {
   font-size: 30px;
   font-weight: 700;
   border: none;
-  padding-top: 50px;
-  margin: 0 0 20px 0;
+  padding-top: 25px;
+  margin: 0 0 10px 0;
 }
 
 .page-header.wsub {
@@ -294,6 +298,12 @@ img {
 
 .space-left {
   padding-left: 15px !important;
+}
+
+.subcoding{
+  padding-left: 40%;
+  padding-bottom: 12px;
+  padding-top: 10px;
 }
 
 .space-left-2x {
@@ -1506,10 +1516,10 @@ input:focus {
 
 .menu-footer {
   width: 360px;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 80px;
+  margin-bottom: 20px;
   text-align: center;
   background: #f7f7f7;
 }
@@ -1699,7 +1709,7 @@ header {
 
 /* End Header */
 section {
-  padding: 25px 15px;
+  padding: 15px 15px;
 }
 
 /* About */
@@ -1822,6 +1832,15 @@ hr, .border-color {
   position: relative;
 }
 
+#certi .container{
+  padding-left: 60px;
+  position: relative;
+}
+
+.certi{
+  padding-left: 30px;
+}
+
 .timeline-item {
   position: relative;
 }
@@ -1848,8 +1867,8 @@ hr, .border-color {
 }
 
 .timeline-date {
-  color: #cccccc;
-  font-size: 12px;
+  color: #919eaa;
+  font-size: 13px;
   margin-bottom: 5px;
 }
 
@@ -1863,7 +1882,7 @@ hr, .border-color {
 }
 
 .timeline-location {
-  color: #cccccc;
+  color: #1d6099;
   font-size: 12px;
   margin-bottom: 10px;
 }
