@@ -1789,6 +1789,13 @@ section {
 .progress-bar-primary {
   background-color: #0082d6;
 }
+.progress-bar-secondary {
+  background-color: #3ebc59;
+}
+
+.progress-bar-tertiary {
+  background-color: #e29e16;
+}
 
 .progress-bar-success {
   background-color: #26ae46;
