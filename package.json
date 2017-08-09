@@ -1,0 +1,24 @@
+{
+  "name": "My_Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charles1104/my_website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charles1104/my_website/issues"
+  },
+  "homepage": "https://github.com/Charles1104/my_website#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "datamaps": "^0.5.8"
+  }
+}

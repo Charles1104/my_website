@@ -35,6 +35,17 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104315509-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </head>
 
 <body class="main-demo">
@@ -67,13 +78,13 @@
             <a class="menu-item page-scroll" href="#skills">Coding skills</a>
         </li>
         <li>
-            <a class="menu-item page-scroll" href="#world">World footprint</a>
+            <a class="menu-item page-scroll" href="#world">World Footprint</a>
         </li>
         <li>
             <a class="menu-item page-scroll" href="#languages">Languages</a>
         </li>
         <li>
-            <a class="menu-item page-scroll" href="#publications">Publications</a>
+            <a class="menu-item page-scroll" href="#portfolio">Publications</a>
         </li>
         <li>
             <a class="menu-item page-scroll" href="#hobbies">Hobbies</a>
@@ -678,6 +689,18 @@
         </section>
                 <!-- / skills -->
 
+<!-- world map -->
+        <section id="world">
+            <div class="container">
+                <div class="page-header space-left">
+                    <h3>World Footprint<span class="text-primary">.</span></h3>
+                </div>
+
+            <div id="map" style="position: relative; width: 750px; height: 400px;"></div>
+
+            </div><!-- / container -->
+        </section>
+
 <!-- languages -->
         <section id="languages">
             <div class="container">
@@ -837,23 +860,22 @@
         <section id="portfolio">
             <div class="container">
                 <div class="page-header space-left">
-                    <h3>Portfolio<span class="text-primary">.</span></h3>
+                    <h3>Publications<span class="text-primary">.</span></h3>
                 </div>
                 <ul class="portfolio-filter list-inline space-left">
                     <li><a href="#" data-group="all" class="active">All</a></li>
-                    <li><a href="#" data-group="design">Design</a></li>
-                    <li><a href="#" data-group="creative">Creative</a></li>
-                    <li><a href="#" data-group="web-design">Web Design</a></li>
+                    <li><a href="#" data-group="University">University</a></li>
+                    <li><a href="#" data-group="Medium">Medium</a></li>
                 </ul><!--end portfolio filter -->
                 <ul class="row portfolio list-unstyled" id="grid">
-                    <li class="col-xs-6 col-md-4 project" data-groups='["design", "creative"]'>
+                    <li class="col-xs-6 col-md-4 project" data-groups='["University"]'>
                         <figure>
                             <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
+                                <img class="img-responsive" src="images/project1.jpg" alt="">
+                                <a href="https://www.slideshare.net/slideshow/embed_code/key/f9nNMEeBTFpEmK">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>Project 1</h6>
+                                            <h6>Master Thesis</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -861,14 +883,14 @@
                         </figure>
                     </li><!-- project -->
 
-                    <li class="col-xs-6 col-md-4 project" data-groups='["photography", "creative"]'>
+                    <li class="col-xs-6 col-md-4 project" data-groups='["Medium"]'>
                         <figure>
                             <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
+                                <img class="img-responsive" src="images/project2.png" alt="">
+                                <a href="https://medium.com/@charles.xavier.verleyen/prelude-to-databases-44b1f6b62496">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>Project 2</h6>
+                                            <h6>Database and PostgreSQL</h6>
                                         </div>
                                     </div>
                                 </a>
@@ -876,111 +898,20 @@
                         </figure>
                     </li><!-- project -->
 
-                    <li class="col-xs-6 col-md-4 project" data-groups='["photography"]'>
+                    <li class="col-xs-6 col-md-4 project" data-groups='["Medium"]'>
                         <figure>
                             <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
+                                <img class="img-responsive" src="images/project3.jpg" alt="">
+                                <a href="https://medium.com/@charles.xavier.verleyen/my-first-week-at-devleague-46704df2cbf9">
                                     <div class="overlay">
                                         <div class="hovereffect-title">
-                                            <h6>Project 3</h6>
+                                            <h6>My first week at DevLeague</h6>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </figure>
                     </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["design"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 4</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design", "creative"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 5</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 6</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design", "photography"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 7</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["photography", "design"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 8</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
-                    <li class="col-xs-6 col-md-4 project" data-groups='["web-design", "design"]'>
-                        <figure>
-                            <div class="hovereffect">
-                                <img class="img-responsive" src="images/project.jpg" alt="">
-                                <a href="single-project.html">
-                                    <div class="overlay">
-                                        <div class="hovereffect-title">
-                                            <h6>Project 9</h6>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </figure>
-                    </li><!-- project -->
-
                     <!-- sizer -->
                     <li class="col-xs-6 col-md-4 shuffle_sizer"></li>
                 </ul><!-- / row portfolio-items -->
@@ -989,52 +920,46 @@
         <!-- / portfolio section 3col -->
 
         <!-- journal -->
-        <section id="journal">
+        <section id="hobbies">
             <div class="container">
                 <div class="page-header space-left">
-                    <h3>Journal<span class="text-primary">.</span></h3>
+                    <h3>Hobbies<span class="text-primary">.</span></h3>
                 </div>
                 <div id="posts-carousel" class="owl-carousel">
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post1.jpg" alt="">
+                        <h5>Tennis</h5>
+                        <p>Once ranked B4 in Belgium, I am now playing for fun during my free time. I love this sport due to its mix of technique, physical condition and mental needed to play well.</p>
                     </div><!-- / carousel-post -->
 
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post2.jpg" alt="">
+                        <h5>Diving</h5>
+                        <p>I am an advanced Padi diver and dive as soon as I have the opportunity. I find it amazing and restful to swim quietly and observe this underwater world. </p>
                     </div><!-- / carousel-post -->
 
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post3.jpg" alt="">
+                        <h5>Movies and Series</h5>
+                        <p>I am a Netflix addicted and also enjoy going to the movies with some friends. It's definitely one of my best activity after a long day at work.</p>
                     </div><!-- / carousel-post -->
 
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post4.jpg" alt="">
+                        <h5>Swimming</h5>
+                        <p>I like the feeling of gravity while swimming; I find it really relaxing. I never practised at a professional level and swim mainly for fun and to relax.</p>
                     </div><!-- / carousel-post -->
 
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post5.jpg" alt="">
+                        <h5>Salsa</h5>
+                        <p>I started Salsa On 2 not so long ago (still have a pretty bad level) and I really enjoy the flow and all the latino atmosphere around it. </p>
                     </div><!-- / carousel-post -->
 
                     <div class="blog block carousel-post">
-                        <img src="images/post.jpg" alt="">
-                        <h5>Post Title</h5>
-                        <p>Quisque eu eleifend sapien. Sed et eros non nibh eleifend nuiqe rhoncus mauris tempus [...]</p>
-                        <a href="single-post.html">Read More...</a>
+                        <img src="images/post6.png" alt="">
+                        <h5>Horse riding</h5>
+                        <p>Being an animal lover, I used to horse ride when I was a child. Since then I have kept good memories and always try to horse ride once on holidays.</p>
                     </div><!-- / carousel-post -->
                 </div><!-- / posts-carousel -->
             </div><!-- / container -->
@@ -1152,6 +1077,15 @@
 </div><!-- / wrapper -->
 
 <!-- javascript -->
+
+<!-- world footprint-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+<script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
+<script src="js/map.js"></script>
+
+<!-- world footprint-->
+
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
