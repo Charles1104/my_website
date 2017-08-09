@@ -2240,8 +2240,10 @@ footer .container {
   .container {
     width: 100%;
   }
+
 }
 @media only screen and (min-width: 768px) {
+
   .container {
     width: 100%;
   }
@@ -2338,6 +2340,7 @@ footer .container {
     margin-left: 15px;
     margin-top: 15px;
     padding: 5px;
+    color: black;
   }
 
   #wrapper.toggled {
