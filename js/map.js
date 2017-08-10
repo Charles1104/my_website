@@ -32,6 +32,33 @@ var map = new Datamap({
     },
     SGP: {
       fillKey: 'traveledTo'
+    },
+    LBR: {
+      fillKey: 'traveledTo'
+    },
+    MLI: {
+      fillKey: 'traveledTo'
+    },
+    SEN: {
+      fillKey: 'traveledTo'
+    },
+    GHA: {
+      fillKey: 'traveledTo'
+    },
+    ZAF: {
+      fillKey: 'traveledTo'
+    },
+    GBR: {
+      fillKey: 'traveledTo'
+    },
+    TUR: {
+      fillKey: 'traveledTo'
+    },
+    ITA: {
+      fillKey: 'traveledTo'
+    },
+    RUS: {
+      fillKey: 'traveledTo'
     }
   }
 });
