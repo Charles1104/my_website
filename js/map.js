@@ -59,6 +59,9 @@ var map = new Datamap({
     },
     RUS: {
       fillKey: 'traveledTo'
+    },
+    PAK: {
+      fillKey: 'traveledTo'
     }
   }
 });

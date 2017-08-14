@@ -18,7 +18,6 @@ function submitForm(){
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
 
-
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
@@ -32,6 +31,11 @@ function submitForm(){
             }
         }
     });
+
+    $("#name").val('');
+    $("#email").val('');
+    $("#message").val('');
+
 }
 
 function formSuccess(){
