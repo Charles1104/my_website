@@ -32,7 +32,11 @@ h4 {
 }
 
 .porto{
-  padding-left: 15px;
+  padding-left: 20px;
+}
+
+.portosub{
+  padding-left: 25px;
 }
 
 .portotitle{
@@ -1537,7 +1541,6 @@ input:focus {
 }
 
 .menu-footer {
-  width: 360px;
   position: relative;
   bottom: 0;
   margin-top: 80px;
@@ -2290,7 +2293,7 @@ footer .container {
   }
 
   #wrapper {
-    padding-left: 360px;
+    padding-left: 300px;
   }
 
   .icon-nav #wrapper {
@@ -2302,7 +2305,7 @@ footer .container {
   }
 
   #sidebar-wrapper {
-    width: 360px;
+    width: 300px;
   }
 
   .icon-nav #sidebar-wrapper {
@@ -2326,7 +2329,7 @@ footer .container {
   header {
     padding-top: 120px;
     padding-right: 40%;
-    padding-bottom: 120px;
+/*    padding-bottom: 120px;*/
     padding-left: 100px;
   }
 }
@@ -2400,7 +2403,6 @@ footer .container {
   }
 
   .menu-footer {
-    width: 250px;
     position: relative;
     margin-top: 60px;
   }
