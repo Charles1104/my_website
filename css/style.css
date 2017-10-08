@@ -67,6 +67,16 @@ p {
   margin-bottom: 10px;
 }
 
+#bootcamp {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #666666;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
 ul {
   list-style: none;
   padding: 0;
