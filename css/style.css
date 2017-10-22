@@ -2416,3 +2416,53 @@ footer .container {
     width: 100%;
   }
 }
+
+.img-certi{
+  width: 60px;
+  float: left;
+}
+.img-certi2{
+  width: 106px;
+  float: left;
+}
+
+.col-certi-header {
+  margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .certi-header{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .certi-total{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .certi-descri{
+  margin-left: 4%;
+  }
+  .certi-total{
+   display: flex;
+   flex-wrap: nowrap;
+  }
+  .certi-header{
+    width: 20%;
+  }
+  .certi-descri{
+    width: 70%;
+  }
+}
+
+.certi-descri span{
+  font-size: 16px;
+  color: #1a6591;
+}
+
+
+
+
