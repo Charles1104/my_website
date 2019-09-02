@@ -27,6 +27,10 @@ h4 {
   margin-bottom: 18px;
 }
 
+.iconify { color: #2E8DCA; }
+.iconify { width: 30px; height: 30px; }
+.iconify { margin-bottom: 18px; }
+
 .cert{
   font-size: 15px;
 }
