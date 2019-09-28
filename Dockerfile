@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt-get update && apt-get install -y \
 	nodejs \
 	npm
+RUN apt-get update && apt-get install -y php-fpm php-mysql
 COPY index.html /usr/share/nginx/html
 COPY package.json /usr/share/nginx/html
 WORKDIR /usr/share/nginx/html
