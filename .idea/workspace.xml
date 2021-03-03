@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f77fe4d-054d-4ab6-97b4-b18e20f09d6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/CV-EN.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -39,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -53,7 +54,7 @@
       <updated>1608637189693</updated>
       <workItem from="1608637190771" duration="9246000" />
       <workItem from="1608982556743" duration="661000" />
-      <workItem from="1614716528878" duration="917000" />
+      <workItem from="1614716528878" duration="1966000" />
     </task>
     <servers />
   </component>
@@ -71,11 +72,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="9333" y="829" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608655529165">
-      <screen x="7680" y="0" width="3840" height="2160" />
-    </state>
-    <state x="9333" y="829" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.0.3840.2160/7680.0.3840.2160/0.27.3840.2100@7680.0.3840.2160" timestamp="1608655529165" />
   </component>
 </project>
